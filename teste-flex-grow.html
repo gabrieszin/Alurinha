@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <style>
+    div.conteudo{
+      display: flex;
+    }
+
+    div.conteudo div{
+      height: 50px;
+    }
+
+    div.conteudo-item-double{
+      flex-grow: 10;
+      flex-shrink: 2;
+    }
+
+    div.conteudo-item{
+      flex-grow: 2;
+      flex-shrink: 2;
+    }
+
+    div.span-1{
+      background-color: lightgrey;
+    }
+
+    div.span-2{
+      background-color: grey;
+    }
+
+    div.span-3{
+      background-color: darkgrey;
+    }
+
+    div.span-4{
+      background-color: lightblue;
+    }
+
+  </style>
+
+  <main>
+    <div class="conteudo">
+      <div class="conteudo-item-double span-1">Brasil</div>
+      <div class="conteudo-item span-2">El Salvador</div>
+      <div class="conteudo-item span-3">Uruguai</div>
+      <div class="conteudo-item span-4">Colombia</div>
+    </div>
+  </main>
+
+</body>
+</html>
